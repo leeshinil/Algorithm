@@ -6,6 +6,7 @@ public class CountryNum {
         System.out.println(solution(n));
     }
     public static String solution(int n) {
+        //StringBuilder사용해보기
         String answer = "";
         int rmd;
 

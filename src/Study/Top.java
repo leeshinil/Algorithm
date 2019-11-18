@@ -1,6 +1,6 @@
 package Study;
 
-public class top {
+public class Top {
     public static void main(String[] args) {
         int arr[] = {6, 9, 5, 7, 4};
         System.out.println(solution(arr));
@@ -24,7 +24,6 @@ public class top {
         }
         answer[0] = 0;
         for (int i = 0; i < heights.length; i++) {
-
             System.out.println(answer[i]);
         }
         return answer;
