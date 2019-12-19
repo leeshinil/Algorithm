@@ -38,7 +38,7 @@ public class Nqueen {
             if (col[i] == col[row]) return false;
 
             // i 행과 row 행의 열값이 대각선에 위치하는 절대값이면 안된다.
-            if (Math.abs(i - row) == Math.abs(col[i] - col[row])) return false;
+            if (Math.abs(i - row) == Math.abs(col[i] - col[row])) return false;//절대값
         }
         return true;
     }
