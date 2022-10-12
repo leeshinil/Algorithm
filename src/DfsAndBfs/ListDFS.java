@@ -41,7 +41,6 @@ public class ListDFS {
             ad.get(t1).add(t2);
             ad.get(t2).add(t1);
         }
-
         dfs(1);
     }
 }
